@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import AnimatedClass from "./Animated_class";
+import AnimatedFcn from "./Animated_fcn";
 
 function App() {
   return (
@@ -27,16 +28,28 @@ function App() {
             ratioX="0.1"
             ratioY="0.11"
           />
-          <AnimatedClass
+          <AnimatedFcn
             className="flying-cloud"
             src="/cloud.png"
             ratioX="0.13"
             ratioY="0.53"
           />
-          <AnimatedClass
+          <AnimatedFcn
             className="flying-cloud"
             src="/cloud.png"
             ratioX="0.23"
+            ratioY="0.23"
+          />
+          <AnimatedFcn
+            className="flying-cloud"
+            src="/cloud.png"
+            ratioX="0.33"
+            ratioY="0.13"
+          />
+          <AnimatedFcn
+            className="flying-cloud"
+            src="/cloud.png"
+            ratioX="0.73"
             ratioY="0.41"
           />
 
