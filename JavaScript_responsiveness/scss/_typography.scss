@@ -2,7 +2,7 @@ html {
   font-size: $small-font-size;
   font-family: $font-family;
 
-  @media screen and (min-width: map-get($breakpoints, xs)){
+  @media screen and (min-width: map-get($breakpoints, xs)) {
     font-size: $base-font-size;
   }
 }

@@ -147,5 +147,3 @@ module.exports = function (env, argv) {
         }
     }
 };
-
-//npx webpack --watch
